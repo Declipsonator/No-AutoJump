@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "ControlsOptionsScreenMixin",
-    "MinecraftClientMixin"
+    "MinecraftClientMixin",
+    "AccessibilityScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

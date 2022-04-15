@@ -17,7 +17,7 @@
     ]
   },
   "mixins": [
-        "no-autojump.mixins.json"
+    "no-autojump.mixins.json"
   ],
   "depends": {
     "minecraft": ">=1.18.2"
