@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "no-autojump",
+  "version": "${version}",
+  "name": "No Autojump",
+  "description": "Completely remove the autojump option.",
+  "authors": [
+    "Declipsonator"
+  ],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/no-autojump/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.declipsonator.noautojump.NoAutojump"
+    ]
+  },
+  "mixins": [
+        "no-autojump.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.18.2"
+  }
+}
