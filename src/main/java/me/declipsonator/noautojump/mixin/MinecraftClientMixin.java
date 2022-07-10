@@ -1,5 +1,6 @@
 package me.declipsonator.noautojump.mixin;
 
+import me.declipsonator.noautojump.NoAutojump;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.RunArgs;
 import net.minecraft.client.option.GameOptions;
@@ -21,6 +22,6 @@ public class MinecraftClientMixin {
 
     @Inject(method = "<init>", at = @At("TAIL"))
     private void onInit(RunArgs args, CallbackInfo ci) {
-        options.autoJump = false;
+        options.getAutoJump().setValue(false);
     }
 }
